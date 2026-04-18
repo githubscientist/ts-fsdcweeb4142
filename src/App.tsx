@@ -1,7 +1,12 @@
+import Header from "./components/Header";
+
 function App() {
+  let name: string = 'Krish';
+  let age: number = 25;
+
   return (
     <>
-      <h1>Hello World!</h1>
+      <Header name={name} age={age} />
     </>
   )
 }
