@@ -1,10 +1,14 @@
 import { Component } from "react";
+import Header from "./components/Header";
 
 class App extends Component {
   render() {
+    let name: string = 'krish';
+    let age: number = 25;
+
     return (
       <>
-        <h1>Hello World!</h1>
+        <Header name={ name } age={ age } />
       </>
     )
   }
